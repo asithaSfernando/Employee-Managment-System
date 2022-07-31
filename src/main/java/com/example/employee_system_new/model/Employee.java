@@ -7,7 +7,6 @@ import lombok.Setter;
 
 import javax.persistence.*;
 
-
 @Getter
 @Setter
 @NoArgsConstructor
@@ -28,7 +27,5 @@ public class Employee {
 
     @Column(name = "email_id")
     private String emailId;
-
-
 
 }
